@@ -91,7 +91,7 @@ header a:hover{
 /* SignUp */
 
 #user-registration-form{
-  height: 41rem;
+  height: 47rem;
 }
 
 .signup-form{
@@ -137,7 +137,7 @@ header a:hover{
 }
 
 .signup-btn:hover{
-  background: orangered;
+  background: rgb(0, 255, 21);
   color: black;
 }
 
