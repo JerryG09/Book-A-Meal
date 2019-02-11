@@ -248,7 +248,6 @@ header a:hover{
 /* Order Confirmation */
 #order-confirmation-form{
   height: 30rem;
-
 }
 
 .order-confirmation{
@@ -282,13 +281,67 @@ header a:hover{
 }
 
 .order-confirmation button{
-  background: #ee2c0a;
+  background: #b1f0ab;
   border: none;
   padding: .7rem;
   border-radius: 10px;
   width: 32%;
   margin: 2em;
 }
+
+.order-confirmation button,
+.checkout-details button:hover{
+  background: #5ff077;
+  color: #e7f0b6
+}
+
+/* Order Checkout */
+#checkout-form{
+  height: 50rem;
+}
+
+.checkout-details{
+  width: 26rem;
+  height: 45rem;
+  padding: 20px;
+  text-align: center;
+  margin: auto;
+  background: #03fc2c;
+  margin-top: 3rem;
+  border-radius: 10px;
+}
+
+.checkout-details h1{
+  margin: auto;
+}
+
+.checkout-details p{
+  margin: auto;
+  padding: 0;
+}
+
+.co-table{
+  width:116%;
+}
+
+.co-table-1{
+  width:116%;
+  
+}
+
+.checkout-details button{
+  background: #b1f0ab;
+  border: none;
+  padding: .7rem;
+  border-radius: 10px;
+  width: 32%;
+  margin-bottom: 5px;
+  width: 100%;
+}
+
+
+
+
 
 
 
