@@ -245,6 +245,52 @@ header a:hover{
   float: left;
 }
 
+/* Order Confirmation */
+#order-confirmation-form{
+  height: 30rem;
+
+}
+
+.order-confirmation{
+  width: 26rem;
+  height: 20rem;
+  padding: 20px;
+  text-align: center;
+  margin: auto;
+  background: #03fc2c;
+  margin-top: 3rem;
+  border-radius: 10px;
+}
+
+.order-confirmation h1{
+  margin-top: 10px;
+  font-family: 'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;
+  color: #000;
+  font-size: 40px;
+  margin: 0;
+}
+
+.order-confirmation input{
+  display: block;
+  width: 100%;
+  padding: 0 16px;
+  height: 44px;
+  text-align: center;
+  box-sizing: border-box;
+  border-radius: 10px;
+  border: none;
+}
+
+.order-confirmation button{
+  background: #ee2c0a;
+  border: none;
+  padding: .7rem;
+  border-radius: 10px;
+  width: 32%;
+  margin: 2em;
+}
+
+
 
 
 
