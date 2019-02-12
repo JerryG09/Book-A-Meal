@@ -172,32 +172,32 @@ header a:hover{
   margin: auto;
 }
 
-.box img{
+.box-ud img{
   width: 300px;
   height: 200px;
   border-radius: 10px;
 }
 
-.boxes {
+.boxes-uh {
   display: grid;
   grid-gap: 20px;
   grid-template-columns: repeat(auto-fit, minmax(300px, 1fr));
 }
 
-.box{
+.box-ud{
   text-align: center;
   padding: 1.5rem 2rem;
 }
 
-.box h3{
+.box-ud h3{
   margin: 0;
 }
 
-.box p{
+.box-ud p{
   margin: 0;
 }
 
-.box button{
+.box-ud button{
   border: none;
   background: #70f386;
   color: #fff;
@@ -206,7 +206,7 @@ header a:hover{
   border-radius: 6px;
 }
 
-.box button:hover{
+.box-ud button:hover{
   background: #03fc2c;
   color: #ee2c0a;
   cursor: pointer;
@@ -492,14 +492,18 @@ header a:hover{
   font-weight: bold;
 }
 
-.boxes div{
+.boxes-ad div{
   background: rgb(238, 240, 220);
   border-radius: 5px;
+  display: inline-block;
+  margin-right: 2rem;
 }
 
 .box-t{
   text-align: right;
-  padding-right: .5rem
+  padding-right: .5rem;
+  padding: 1em;
+  margin-bottom: 1em;
 }
 
 .tht-1{
@@ -548,6 +552,56 @@ header a:hover{
 
 .t-style th{
   text-align: left;
+}
+
+
+/* Admin Menu */
+.admin-pg{
+  height: 190vh;
+}
+.header-ad >div{
+  display: inline-block;
+  margin-left: 3rem;
+}
+
+.menu-list-ad {
+  display: grid;
+  grid-gap: 20px;
+  grid-template-columns: repeat(auto-fit, minmax(300px, 1fr));
+}
+
+.box-am1 img{
+  width: 300px;
+  height: 200px;
+  border-radius: 10px;
+}
+
+.box-am1 h3{
+  margin: 0;
+  padding: 0;
+  text-align: center;
+}
+
+.box-am1 p{
+  margin: 0;
+  padding: 0;
+  text-align: center;
+}
+
+.ad-menu{
+  background: #06eb06;
+  text-align: center;
+  padding: 5px;
+  border-radius: 5px;
+}
+
+.box-ad2{
+  background: rgb(56, 155, 65);
+  padding: 0.1em;
+  width: 30%;
+  margin: 1rem;
+  text-align: center;
+  border-radius: 2em;
 }
 
 
