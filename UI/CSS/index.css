@@ -2,7 +2,6 @@ body{
   font: 15px/1.5 Arial, Helvetica, sans-serif;
   padding: 0;
   margin: 0;
-  background-color: #f4f4f4;
 }
 
 .container{
@@ -143,7 +142,7 @@ header a:hover{
 
 .signup-form a{
   text-decoration: none;
-  color: #000;
+  color: #fff;
   font-family: 'Lucida Sans', 'Lucida Sans Regular', 'Lucida Grande', 'Lucida Sans Unicode', Geneva, Verdana, sans-serif;
   padding: 10px;
   transition: 0.8s;
@@ -151,9 +150,20 @@ header a:hover{
   border-radius: 4px;
 }
 
-.signup-form a:hover{
-  background: #ee2c0a;
+.signup-form button{
+  width: 100%;
+  background: #4bf768;
+  border-radius: 1em;
+  border: none;
+  margin: 12px 0;
 }
+
+.signup-form button:hover{
+  color: #e7e9d6;
+  font-weight: bold;
+  background: #03fc2c
+}
+
 
 /* User-Menu */
 .user-menu{
@@ -205,7 +215,11 @@ header a:hover{
 /* User Booking */
 #booking-form{
   margin: auto;
+  padding: 1.2rem;
+}
 
+#booking-form >div{
+  padding: 1 2.6rem;
 }
 
 .booking-details h1{
@@ -218,7 +232,7 @@ header a:hover{
 }
 
 .booking-details{
-  background: #03fc2c;
+  background: #d9f3a7;
   width: 80%;
   height: 99vh;
   margin: auto;
@@ -229,12 +243,24 @@ header a:hover{
 }
 
 .booking-details button{
-  background: #ee2c0a;
+  background: #a6f062;
   border: none;
   padding: .7rem;
   border-radius: 10px;
   width: 32%;
   margin: 2em;
+}
+
+.booking-details a{
+  text-decoration: none;
+  color: rgb(22, 21, 21)
+}
+
+.booking-details button:hover{
+  font-weight: bold;
+  color: #fff;
+  background: #03fc2c;
+  cursor: pointer;
 }
 
 .bt-gm{
@@ -256,7 +282,7 @@ header a:hover{
   padding: 20px;
   text-align: center;
   margin: auto;
-  background: #03fc2c;
+  background: #d9f3a7;
   margin-top: 3rem;
   border-radius: 10px;
 }
@@ -281,7 +307,7 @@ header a:hover{
 }
 
 .order-confirmation button{
-  background: #b1f0ab;
+  background: #a6f062;
   border: none;
   padding: .7rem;
   border-radius: 10px;
@@ -289,10 +315,19 @@ header a:hover{
   margin: 2em;
 }
 
-.order-confirmation button,
-.checkout-details button:hover{
-  background: #0e2712;
-  color: #e7f0b6
+.order-confirmation button:hover{
+  background: #00ff2a;
+  font-weight: bold;
+  transition: 0.8s;
+}
+
+.order-confirmation a:hover{
+  color: #fff;
+}
+
+.order-confirmation a{
+  text-decoration: none;
+  color:  rgb(17, 16, 16);
 }
 
 /* Order Checkout */
@@ -301,18 +336,19 @@ header a:hover{
 }
 
 .checkout-details{
-  width: 26rem;
+  width: 29rem;
   height: 45rem;
   padding: 20px;
   text-align: center;
   margin: auto;
-  background: #03fc2c;
+  background: #d9f3a7;
   margin-top: 3rem;
   border-radius: 10px;
 }
 
-.checkout-details h1{
+.checkout-details h2{
   margin: auto;
+  font-size: 28px;
 }
 
 .checkout-details p{
@@ -325,12 +361,12 @@ header a:hover{
 }
 
 .co-table-1{
-  width:116%;
-  
+  width:139%;
+  text-align: left;
 }
 
 .checkout-details button{
-  background: #b1f0ab;
+  background: #a6f062;
   border: none;
   padding: .7rem;
   border-radius: 10px;
@@ -338,6 +374,21 @@ header a:hover{
   margin-bottom: 5px;
   width: 100%;
 }
+
+.checkout-details a{
+  text-decoration: none;
+}
+
+.checkout-details button:hover{
+  font-weight: bold;
+  background: #03fc2c;
+  cursor: pointer;
+}
+
+.checkout-details a:hover{
+  color: #fff;
+}
+
 
 /* User Order History */
 .history-container{
@@ -376,6 +427,128 @@ header a:hover{
   background: #0e2712;
 }
 
+/* Admin Dashboard */
+.admin-pg{
+  height: 80vh; 
+  padding: 0;
+}
+
+.pg-sidenav{
+  float: left;
+  width: 20%;
+  background: rgb(238, 240, 220);
+}
+
+.main-pg-wrapper{
+  float: right;
+  width: 75%;
+}
+
+.sidenav-header{
+  text-align: center;
+  padding: 12px;
+  padding-top: 2rem;
+}
+
+.sidenav-title img{
+  height: 6rem;
+  border-radius: 54px;
+}
+
+.prof-txt p{
+  font-weight: bold;
+  font-size: 36px;
+}
+
+.prof-txt a{
+  text-decoration: none;
+  font-weight: bold;
+  color: #000;
+}
+
+.prof-txt a:hover{
+  color: #fff;
+  background: #21f043;
+  width: 120%;
+  border-radius: 6px;
+  padding: 1rem;
+}
+
+.sidenav-body{
+  margin-top: 3.5rem;
+}
+
+.sidenav-body a{
+  display: block;
+  text-decoration: none;
+  color: #000;
+  padding-bottom: 15px;
+  padding-left: 15px;
+}
+
+.sidenav-body a:hover{
+  border-left: #00ff2a;
+  background: #f6f8f4;
+  font-weight: bold;
+}
+
+.boxes div{
+  background: rgb(238, 240, 220);
+  border-radius: 5px;
+}
+
+.box-t{
+  text-align: right;
+  padding-right: .5rem
+}
+
+.tht-1{
+  color: rgb(131, 131, 75);
+}
+
+.tht-2{
+  color: rgb(247, 51, 77);
+}
+
+.tht-3{
+  color: rgb(4, 250, 107);
+}
+
+.box-t h3{
+  margin: 0;
+  padding: 0;
+  font-size: 36px;
+  font-family: roboto;
+}
+
+.box-t p{
+  margin: 0;
+  padding: 0;
+  font-size: 30px;
+  font-family: roboto;
+}
+
+.page-container{
+  padding-right: 3rem;
+}
+
+.table{
+  background: rgb(238, 240, 220);
+  margin-top: 1rem; 
+  border-radius: 6px;
+  height: 12rem;
+  padding: 1rem;
+}
+
+.t-style{
+  width: 100%;
+  border: 1px solid rgb(243, 236, 236);
+  border-spacing: 5px;
+}
+
+.t-style th{
+  text-align: left;
+}
 
 
 
